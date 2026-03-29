@@ -6,10 +6,10 @@ export default function Home() {
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-100 mb-4">
+        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-stone-800 dark:text-slate-100 mb-4">
           Đại Hải Trình MARKIGAI
         </h1>
-        <p className="text-xl text-slate-400 max-w-2xl mx-auto">
+        <p className="text-xl text-stone-500 dark:text-slate-400 max-w-2xl mx-auto">
           Đi tìm kho báu One Piece của riêng bạn - Chinh phục Đại Hải Trình Marketing dữ dội nhưng đầy thú vị, bằng tri thức và sức mạnh AI.<br />
           Căng buồm ra khơi cùng tôi nào!
         </p>
@@ -17,10 +17,10 @@ export default function Home() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {courses.map((course) => (
-          <div key={course.id} className="group relative bg-[#1c140d] rounded-sm border-2 border-[#4a3b2c]/80 p-6 transition-all duration-300 hover:shadow-[0_0_25px_rgba(200,170,134,0.15)] hover:-translate-y-1 flex flex-col h-full overflow-hidden">
+          <div key={course.id} className="group relative bg-[#1c140d] dark:bg-[#1c140d] light:bg-white rounded-sm border-2 border-[#4a3b2c]/80 dark:border-[#4a3b2c]/80 light:border-stone-200 p-6 transition-all duration-300 hover:shadow-[0_0_25px_rgba(200,170,134,0.15)] hover:-translate-y-1 flex flex-col h-full overflow-hidden">
 
-            {/* Texture nền giấy cổ */}
-            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/old-wall.png')] opacity-20 pointer-events-none mix-blend-overlay" />
+            {/* Texture nền giấy cổ — chỉ dark mode */}
+            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/old-wall.png')] opacity-20 dark:opacity-20 pointer-events-none mix-blend-overlay" />
 
             {/* 4 Góc viền trang trí kiểu Bản đồ */}
             <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-[#8b7355] opacity-40 group-hover:opacity-100 transition-opacity m-1" />

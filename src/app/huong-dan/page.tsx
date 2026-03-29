@@ -77,13 +77,13 @@ export default function HuongDanPage() {
       {/* Hero Intro */}
       <div className="text-center mb-16 relative">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-blue-500/20 blur-[100px] z-0"></div>
-        <h1 className="relative z-10 text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300 mb-6 drop-shadow-sm">
-          Hồ sơ <strong className="text-amber-500">Đại Hải Trình MARKIGAI</strong>
+        <h1 className="relative z-10 text-4xl sm:text-5xl font-extrabold text-stone-800 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-400 dark:to-indigo-300 mb-6">
+          Hồ sơ <strong className="text-amber-600 dark:text-amber-500">Đại Hải Trình MARKIGAI</strong>
         </h1>
-        <p className="relative z-10 text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed">
-          Chào các Thuyền trưởng đến với <strong>MARKIGAI - Đại Hải Trình Marketing x AI</strong>.
+        <p className="relative z-10 text-lg text-stone-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed">
+          Chào các Thuyền trưởng đến với <strong className="text-stone-800 dark:text-white">MARKIGAI - Đại Hải Trình Marketing x AI</strong>.
           <br />
-          <span className="block mt-4 italic text-slate-200">
+          <span className="block mt-4 italic text-stone-700 dark:text-slate-200">
             "Dùng AI để làm việc thông minh hơn, dùng Marketing để lan tỏa giá trị rộng hơn và dùng Ikigai để sống ý nghĩa hơn."
           </span>
           <br />
@@ -92,41 +92,41 @@ export default function HuongDanPage() {
       </div>
 
       {/* Target Audience Section */}
-      <div className="mb-20 bg-[#1B2332]/40 border border-[#8b7355]/30 rounded-3xl p-8 sm:p-10 relative overflow-hidden group">
+      <div className="mb-20 bg-stone-100 dark:bg-[#1B2332]/40 border border-stone-300 dark:border-[#8b7355]/30 rounded-3xl p-8 sm:p-10 relative overflow-hidden group">
         <div className="absolute top-0 left-0 w-64 h-64 bg-amber-500/5 rounded-full blur-[80px] group-hover:bg-amber-500/10 transition-all duration-700"></div>
         <div className="relative z-10">
-          <h2 className="text-2xl font-bold text-amber-400 mb-6 flex items-center gap-3">
+          <h2 className="text-2xl font-bold text-amber-600 dark:text-amber-400 mb-6 flex items-center gap-3">
             <Compass className="w-6 h-6" />
             "Đại Hải Trình MARKIGAI" Này Dành Cho Ai?
           </h2>
           <div className="space-y-6">
             <div className="flex gap-4">
-              <div className="w-10 h-10 rounded-full bg-[#0A0A0A]/60 flex items-center justify-center shrink-0 border border-slate-700">
+              <div className="w-10 h-10 rounded-full bg-stone-200 dark:bg-[#0A0A0A]/60 flex items-center justify-center shrink-0 border border-stone-300 dark:border-slate-700">
                 <span className="text-xl">🌊</span>
               </div>
               <div>
-                <strong className="text-slate-100 text-lg block mb-1">Các Thuỷ Thủ Tân Binh (Newbies)</strong>
-                <p className="text-slate-400 leading-relaxed text-sm sm:text-base">Những người mới chân ướt chân ráo bước lên tàu khám phá Đại Hải Trình Marketing, đang ngợp trong mớ bòng bong lý thuyết, loay hoay chưa biết phải giương buồm bắt đầu từ đâu.</p>
+                <strong className="text-stone-800 dark:text-slate-100 text-lg block mb-1">Các Thuỷ Thủ Tân Binh (Newbies)</strong>
+                <p className="text-stone-500 dark:text-slate-400 leading-relaxed text-sm sm:text-base">Những người mới chân ướt chân ráo bước lên tàu khám phá Đại Hải Trình Marketing, đang ngợp trong mớ bòng bong lý thuyết, loay hoay chưa biết phải giương buồm bắt đầu từ đâu.</p>
               </div>
             </div>
 
             <div className="flex gap-4">
-              <div className="w-10 h-10 rounded-full bg-[#0A0A0A]/60 flex items-center justify-center shrink-0 border border-slate-700">
+              <div className="w-10 h-10 rounded-full bg-stone-200 dark:bg-[#0A0A0A]/60 flex items-center justify-center shrink-0 border border-stone-300 dark:border-slate-700">
                 <span className="text-xl">⚓</span>
               </div>
               <div>
-                <strong className="text-slate-100 text-lg block mb-1">Các Thuyền Trưởng Đương Nhiệm (Mid/Senior)</strong>
-                <p className="text-slate-400 leading-relaxed text-sm sm:text-base">Những người đã chinh chiến, dạn dày sương gió một thời gian, nhưng đang bị mất phương hướng trước "siêu bão" AI đổ bộ. Đây là trạm dừng chân để bạn hiệu chỉnh lại chiếc la bàn, kết hợp độ nhạy bén thực chiến với vũ khí công nghệ mới.</p>
+                <strong className="text-stone-800 dark:text-slate-100 text-lg block mb-1">Các Thuyền Trưởng Đương Nhiệm (Mid/Senior)</strong>
+                <p className="text-stone-500 dark:text-slate-400 leading-relaxed text-sm sm:text-base">Những người đã chinh chiến, dạn dày sương gió một thời gian, nhưng đang bị mất phương hướng trước "siêu bão" AI đổ bộ. Đây là trạm dừng chân để bạn hiệu chỉnh lại chiếc la bàn, kết hợp độ nhạy bén thực chiến với vũ khí công nghệ mới.</p>
               </div>
             </div>
 
             <div className="flex gap-4">
-              <div className="w-10 h-10 rounded-full bg-[#0A0A0A]/60 flex items-center justify-center shrink-0 border border-slate-700">
+              <div className="w-10 h-10 rounded-full bg-stone-200 dark:bg-[#0A0A0A]/60 flex items-center justify-center shrink-0 border border-stone-300 dark:border-slate-700">
                 <span className="text-xl">👑</span>
               </div>
               <div>
-                <strong className="text-slate-100 text-lg block mb-1">Các Đô Đốc Lão Làng (Veterans/Experts)</strong>
-                <p className="text-slate-400 leading-relaxed text-sm sm:text-base">Những Thuyền trưởng gạo cội dày dạn kinh nghiệm tình cờ ghé ngang qua quán hải trình. Rất mong các vị trưởng bối cứ thoải mái dạo chơi và để lại vài lời chỉ giáo quý giá để cộng đồng ngày một hoàn thiện!</p>
+                <strong className="text-stone-800 dark:text-slate-100 text-lg block mb-1">Các Đô Đốc Lão Làng (Veterans/Experts)</strong>
+                <p className="text-stone-500 dark:text-slate-400 leading-relaxed text-sm sm:text-base">Những Thuyền trưởng gạo cội dày dạn kinh nghiệm tình cờ ghé ngang qua quán hải trình. Rất mong các vị trưởng bối cứ thoải mái dạo chơi và để lại vài lời chỉ giáo quý giá để cộng đồng ngày một hoàn thiện!</p>
               </div>
             </div>
           </div>
@@ -135,12 +135,12 @@ export default function HuongDanPage() {
 
       {/* Sâu chuỗi 8 Đảo */}
       <div className="mb-20">
-        <div className="flex items-center gap-3 mb-8 border-b border-slate-800 pb-4">
-          <Compass className="w-8 h-8 text-blue-400" />
-          <h2 className="text-3xl font-bold text-slate-100">Bức Tranh Tổng Quan 8 Hòn Đảo tại MARKIGAI</h2>
+        <div className="flex items-center gap-3 mb-8 border-b border-stone-300 dark:border-slate-800 pb-4">
+          <Compass className="w-8 h-8 text-blue-500 dark:text-blue-400" />
+          <h2 className="text-3xl font-bold text-stone-800 dark:text-slate-100">Bức Tranh Tổng Quan 8 Hòn Đảo tại MARKIGAI</h2>
         </div>
 
-        <p className="text-slate-400 mb-8 max-w-4xl text-base leading-relaxed">
+        <p className="text-stone-500 dark:text-slate-400 mb-8 max-w-4xl text-base leading-relaxed">
           Để không bị lạc lối giữa biển thông tin, bạn phải hiểu rõ <strong>La Bàn định hướng</strong>. Kiến thức của Đảo trước chính là Nguyên liệu để AI giải bài toán ở Đảo sau. <br />Ví dụ: Không thể lên Kế hoạch Content (Đảo 4) nếu chưa có Key Message cắm chốt (Đảo 3). <br />Tuy nhiên nếu Thuyền trưởng đã biết phần nào, hoàn toàn có thể lướt qua cho vui. À, nếu có phần nào chưa "ngon" thì báo tôi ngay nha, rất mong được chỉ giáo.
         </p>
 
@@ -151,15 +151,15 @@ export default function HuongDanPage() {
           {islandsInfo.map((island) => (
             <div key={island.id} className={`relative z-10 flex flex-col p-6 rounded-2xl border backdrop-blur-sm transition-all hover:-translate-y-2 hover:shadow-lg ${island.bgColor}`}>
               <div className="flex justify-between items-start mb-4">
-                <div className={`p-3 rounded-xl bg-[#0A0A0A]/50 ${island.color}`}>
+                <div className={`p-3 rounded-xl bg-white/50 dark:bg-[#0A0A0A]/50 ${island.color}`}>
                   <island.icon className="w-6 h-6" />
                 </div>
-                <span className="text-xs font-black text-slate-500 bg-slate-900/50 px-2 py-1 rounded-md">
+                <span className="text-xs font-black text-stone-500 dark:text-slate-500 bg-stone-100 dark:bg-slate-900/50 px-2 py-1 rounded-md">
                   ĐẢO {island.id}
                 </span>
               </div>
               <h3 className={`text-lg font-bold mb-3 ${island.color}`}>{island.name}</h3>
-              <p className="text-sm text-slate-300 leading-relaxed flex-grow">
+              <p className="text-sm text-stone-600 dark:text-slate-300 leading-relaxed flex-grow">
                 {island.desc}
               </p>
             </div>
@@ -168,7 +168,7 @@ export default function HuongDanPage() {
       </div>
 
       {/* Hướng dẫn tương tác Nami */}
-      <div className="bg-[#1B2332]/50 border border-slate-700/80 rounded-3xl p-8 sm:p-12 relative overflow-hidden group">
+      <div className="bg-stone-100 dark:bg-[#1B2332]/50 border border-stone-300 dark:border-slate-700/80 rounded-3xl p-8 sm:p-12 relative overflow-hidden group">
         <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/5 rounded-full blur-[80px] group-hover:bg-indigo-500/20 transition-all duration-700"></div>
 
         <div className="relative z-10">
@@ -177,40 +177,40 @@ export default function HuongDanPage() {
               <MessageSquare className="w-7 h-7 text-white" />
             </div>
             <div>
-              <h2 className="text-3xl font-bold text-slate-100">Hoa Tiêu Nami - Trợ Thủ AI 24/7</h2>
-              <p className="text-indigo-300 mt-1 font-medium">Bí kíp học cùng AI trong Đại Hải Trình</p>
+              <h2 className="text-3xl font-bold text-stone-800 dark:text-slate-100">Hoa Tiêu Nami - Trợ Thủ AI 24/7</h2>
+              <p className="text-indigo-500 dark:text-indigo-300 mt-1 font-medium">Bí kíp học cùng AI trong Đại Hải Trình</p>
             </div>
           </div>
 
-          <div className="prose prose-invert max-w-none text-slate-300 mt-8 space-y-6">
+          <div className="prose dark:prose-invert max-w-none text-stone-600 dark:text-slate-300 mt-8 space-y-6">
             <p>
               Góc dưới cùng bên phải màn hình luôn có sự hiện diện của <strong>AI Nami</strong>. Thay vì phải copy/paste ra ChatGPT ở tab khác, bạn có thể gọi Nami ngay trên hệ thống. Nami đã được "nhập liệu" toàn bộ bí mật của 8 Đảo.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-              <div className="bg-[#0A0A0A]/60 p-5 rounded-xl border border-slate-700">
+              <div className="bg-white dark:bg-[#0A0A0A]/60 p-5 rounded-xl border border-stone-200 dark:border-slate-700">
                 <div className="flex items-center gap-2 mb-3">
-                  <HelpCircle className="w-5 h-5 text-amber-400" />
-                  <strong className="text-slate-200">Ví dụ Prompt Hỏi Lý thuyết</strong>
+                  <HelpCircle className="w-5 h-5 text-amber-500 dark:text-amber-400" />
+                  <strong className="text-stone-700 dark:text-slate-200">Ví dụ Prompt Hỏi Lý thuyết</strong>
                 </div>
-                <p className="text-sm text-slate-400 line-clamp-3 italic">
+                <p className="text-sm text-stone-500 dark:text-slate-400 line-clamp-3 italic">
                   "Nami ơi, tôi đang đọc Đảo 3 nhưng nghe định nghĩa Phễu TOFU MOFU BOFU rối rắm quá. Bạn hãy giải thích lại rạch ròi bằng ví dụ bán son môi xem nào."
                 </p>
               </div>
 
-              <div className="bg-[#0A0A0A]/60 p-5 rounded-xl border border-slate-700">
+              <div className="bg-white dark:bg-[#0A0A0A]/60 p-5 rounded-xl border border-stone-200 dark:border-slate-700">
                 <div className="flex items-center gap-2 mb-3">
-                  <Sparkles className="w-5 h-5 text-indigo-400" />
-                  <strong className="text-slate-200">Ví dụ Prompt Xin Bài Tập Riêng</strong>
+                  <Sparkles className="w-5 h-5 text-indigo-500 dark:text-indigo-400" />
+                  <strong className="text-stone-700 dark:text-slate-200">Ví dụ Prompt Xin Bài Tập Riêng</strong>
                 </div>
-                <p className="text-sm text-slate-400 italic">
+                <p className="text-sm text-stone-500 dark:text-slate-400 italic">
                   "Áp dụng Workflow AI ở Phần 2 của Đảo 4 (Content Plan). Tôi đang mở quán Bò Né vỉa hè vốn 30 triệu. Cậu viết cho tôi bộ Keyword Pillars theo công thức Đảo 4 nhé!"
                 </p>
               </div>
             </div>
 
-            <div className="mt-8 p-4 bg-indigo-500/10 border-l-4 border-indigo-500 rounded-r-lg">
-              <p className="text-indigo-200 m-0">
+            <div className="mt-8 p-4 bg-indigo-50 dark:bg-indigo-500/10 border-l-4 border-indigo-500 rounded-r-lg">
+              <p className="text-indigo-700 dark:text-indigo-200 m-0">
                 <strong>Mẹo:</strong> Nami không chỉ biết lý thuyết. Nami là người thiết kế hệ thống này nên cô ấy thuộc lòng <strong>Mã Prompt</strong> trong các Case Study. Bạn cứ ra lệnh đổi nội dung Case sang ngành nghề của bạn, Nami sẽ tuôn ra kết quả ngay lập tức.
               </p>
             </div>
