@@ -1,29 +1,143 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ============================================================
+   DARK MODE (default) — class="dark" on <html>
+   ============================================================ */
+:root,
+.dark {
+  --bg-primary: #0A0A0A;
+  --bg-card: #1c140d;
+  --bg-nav: rgba(10, 10, 10, 0.8);
+  --bg-overlay: rgba(17, 13, 10, 0.95);
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --border-color: #1e293b;
+  --border-card: #4a3b2c;
+  --prose-text: #d1baa2;
+  --prose-heading: #e8dcc7;
+  --foreground: #ededed;
+  --background: #0A0A0A;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* ============================================================
+   LIGHT MODE — class="light" or no class on <html>
+   ============================================================ */
+.light {
+  --bg-primary: #f8f5f0;
+  --bg-card: #ffffff;
+  --bg-nav: rgba(252, 249, 245, 0.92);
+  --bg-overlay: rgba(255, 255, 255, 0.97);
+  --text-primary: #1e1a16;
+  --text-secondary: #57534e;
+  --text-muted: #a8a29e;
+  --border-color: #e7e5e4;
+  --border-card: #d6cfc6;
+  --prose-text: #3a3228;
+  --prose-heading: #1c1713;
+  --foreground: #1e1a16;
+  --background: #f8f5f0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ============================================================
+   BASE STYLES
+   ============================================================ */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body {
-  @apply bg-[#0A0A0A] text-slate-200;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light mode global overrides */
+.light body {
+  background-color: #f8f5f0;
+  color: #1c1713;
+}
+
+.dark body {
+  background-color: #0A0A0A;
+  color: #e2e8f0;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-space-grotesk), sans-serif;
   letter-spacing: -0.02em;
+}
+
+/* ============================================================
+   LIGHT MODE — Component overrides
+   ============================================================ */
+
+/* Navigation */
+.light nav {
+  background-color: var(--bg-nav) !important;
+  border-bottom-color: #e7e5e4 !important;
+}
+
+.light nav a {
+  color: #57534e !important;
+}
+
+.light nav a:hover {
+  color: #d97706 !important;
+}
+
+.light nav .logo-text {
+  color: #1c1713 !important;
+}
+
+/* Island cards on homepage */
+.light .island-card {
+  background-color: #fff9f3 !important;
+  border-color: #c9bfb3 !important;
+}
+
+/* Background overlay — ẩn hình nền tối trong light mode */
+.light .bg-overlay-dark {
+  opacity: 0 !important;
+}
+
+/* Footer */
+.light footer {
+  border-top-color: #e7e5e4 !important;
+}
+
+.light footer p {
+  color: #a8a29e !important;
+}
+
+/* Prose content trong island */
+.light .prose-island {
+  color: var(--prose-text) !important;
+  background-color: #ffffff !important;
+}
+
+.light .prose-island h1,
+.light .prose-island h2,
+.light .prose-island h3,
+.light .prose-island h4 {
+  color: var(--prose-heading) !important;
+}
+
+/* Cards và boxes trong nội dung */
+.light .content-card {
+  background-color: #faf7f4 !important;
+  border-color: #d6cfc6 !important;
+  color: #3a3228 !important;
+}
+
+/* Scrollbar light mode */
+.light ::-webkit-scrollbar {
+  width: 8px;
+}
+.light ::-webkit-scrollbar-track {
+  background: #f5f0eb;
+}
+.light ::-webkit-scrollbar-thumb {
+  background: #c9bfb3;
+  border-radius: 4px;
 }
