@@ -7,7 +7,7 @@ export default function Home() {
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="text-center mb-16">
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-100 mb-4">
-          Đại Hải Trình Marketing x AI
+          Đại Hải Trình MARKIGAI
         </h1>
         <p className="text-xl text-slate-400 max-w-2xl mx-auto">
           Đi tìm kho báu One Piece của riêng bạn - Chinh phục Đại Hải Trình Marketing dữ dội nhưng đầy thú vị, bằng tri thức và sức mạnh AI.<br />

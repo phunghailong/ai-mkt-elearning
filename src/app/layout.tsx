@@ -25,14 +25,14 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Phùng Hải Long', url: BASE_URL }],
   creator: 'Phùng Hải Long',
-  publisher: 'Đại Hải Trình Marketing x AI',
+  publisher: 'Đại Hải Trình MARKIGAI - Marketing x AI',
   category: 'Education',
   openGraph: {
     type: 'website',
     locale: 'vi_VN',
     url: BASE_URL,
-    siteName: 'Đại Hải Trình Marketing x AI',
-    title: 'Đại Hải Trình Marketing x AI — Học Marketing & AI Thực Chiến',
+    siteName: 'Đại Hải Trình MARKIGAI - Marketing x AI',
+    title: 'Đại Hải Trình MARKIGAI — Học Marketing & AI Thực Chiến',
     description:
       'Khoá học Marketing ứng dụng AI miễn phí bằng tiếng Việt. Chinh phục 8 đảo kiến thức Marketing từ cơ bản đến nâng cao.',
     images: [
@@ -40,13 +40,13 @@ export const metadata: Metadata = {
         url: '/logo.png',
         width: 1200,
         height: 630,
-        alt: 'Đại Hải Trình Marketing x AI',
+        alt: 'Đại Hải Trình MARKIGAI - Marketing x AI',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Đại Hải Trình Marketing x AI — Học Marketing & AI Thực Chiến',
+    title: 'Đại Hải Trình MARKIGAI - Marketing x AI — Học Marketing & AI Thực Chiến',
     description: 'Khoá học Marketing ứng dụng AI miễn phí bằng tiếng Việt. 8 chủ đề từ cơ bản đến nâng cao.',
     images: ['/logo.png'],
     creator: '@phunghailong',
@@ -148,7 +148,7 @@ export default function RootLayout({
           </main>
           <ChatNami />
           <footer className="w-full text-center py-6 mt-12 border-t border-slate-900 border-opacity-50">
-            <p className="text-sm text-slate-500 font-medium">© 2026 Phùng Hải Long. All rights reserved.</p>
+            <p className="text-sm text-slate-500 font-medium">© 2026 MARKIGAI - Phùng Hải Long. All rights reserved.</p>
             <p className="text-slate-500 text-xs mt-2 italic">
               Mọi thắc mắc vui lòng liên hệ:
               <a href="mailto:longphung.com@gmail.com" className="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">

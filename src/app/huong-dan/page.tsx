@@ -78,10 +78,16 @@ export default function HuongDanPage() {
       <div className="text-center mb-16 relative">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-blue-500/20 blur-[100px] z-0"></div>
         <h1 className="relative z-10 text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300 mb-6 drop-shadow-sm">
-          Hướng Dẫn Tham Gia "Đại Hải Trình"
+          Hồ sơ <strong className="text-amber-500">Đại Hải Trình MARKIGAI</strong>
         </h1>
         <p className="relative z-10 text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed">
-          Chào mừng các Thuyền trưởng mới đến với <strong>Đại Hải Trình Marketing x AI</strong>. Thay vì mò mẫm các khái niệm khô khan, rối loạn, bạn sẽ bước vào một hành trình nơi <strong>Tư duy Marketing Gốc</strong> kết nối hoàn hảo với <strong>Hành động Thực chiến AI</strong>.
+          Chào các Thuyền trưởng đến với <strong>MARKIGAI - Đại Hải Trình Marketing x AI</strong>.
+          <br />
+          <span className="block mt-4 italic text-slate-200">
+            "Dùng AI để làm việc thông minh hơn, dùng Marketing để lan tỏa giá trị rộng hơn và dùng Ikigai để sống ý nghĩa hơn."
+          </span>
+          <br />
+          Triết lý này tin rằng: Khi một người làm marketing tìm thấy điểm giao thoa giữa Công cụ (AI) với Kỹ năng (Marketing) và Lẽ sống (Ikigai), họ sẽ trở thành 1 người làm nghề có giá trị và hạnh phúc.
         </p>
       </div>
 
@@ -91,7 +97,7 @@ export default function HuongDanPage() {
         <div className="relative z-10">
           <h2 className="text-2xl font-bold text-amber-400 mb-6 flex items-center gap-3">
             <Compass className="w-6 h-6" />
-            "Đại Hải Trình" Này Dành Cho Ai?
+            "Đại Hải Trình MARKIGAI" Này Dành Cho Ai?
           </h2>
           <div className="space-y-6">
             <div className="flex gap-4">
@@ -131,7 +137,7 @@ export default function HuongDanPage() {
       <div className="mb-20">
         <div className="flex items-center gap-3 mb-8 border-b border-slate-800 pb-4">
           <Compass className="w-8 h-8 text-blue-400" />
-          <h2 className="text-3xl font-bold text-slate-100">Bức Tranh Tổng Quan 8 Hòn Đảo</h2>
+          <h2 className="text-3xl font-bold text-slate-100">Bức Tranh Tổng Quan 8 Hòn Đảo tại MARKIGAI</h2>
         </div>
 
         <p className="text-slate-400 mb-8 max-w-4xl text-base leading-relaxed">

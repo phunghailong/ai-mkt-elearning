@@ -72,7 +72,7 @@ export default function AboutPage() {
         <ScrollText className="w-16 h-16 mx-auto text-indigo-500 mb-6" />
         <h1 className="text-4xl md:text-5xl font-extrabold text-slate-100 mb-4">Hồ Sơ Thuyền Trưởng</h1>
         <p className="text-xl text-slate-400">
-          Người dẫn đường cùng bạn chinh phục Đại Hải Trình Marketing x AI
+          Cùng bạn chinh phục Đại Hải Trình Marketing x AI
         </p>
       </div>
 
@@ -87,13 +87,13 @@ export default function AboutPage() {
 
         <div className="space-y-4 text-slate-300 leading-relaxed text-lg">
           <p>
-            Chào người anh em, tôi là Long, một người lăn lộn trên Đại hải trình Marketing hơn 15 năm và gần 3 năm mò mẫm Haki AI bá vương (hiện tại vẫn đang ngày đêm rèn luyện mấy cái của nợ này).
+            Chào người anh em, tôi là một người lăn lộn trên Đại hải trình Marketing hơn 15 năm nay và gần 3 năm mò mẫm Haki AI bá vương (hiện tại vẫn đang ngày đêm rèn luyện mấy cái của nợ này).
           </p>
           <p>
             Trên hành trình đầy giông bão ấy, tôi đã được gặp gỡ, hỗ trợ và trực tiếp đào tạo nhiều anh chị em đồng đội. Từ những người lính mới ra khơi đến các thuyền trưởng lão luyện, tôi đã cùng anh em trải qua vô vàn sóng gió thị trường để thấu hiểu tường tận những nỗi đau, sự vất vả khi phải vật lộn với hàng tá công cụ số phức tạp mỗi ngày, những kiến thức mới, xu hướng mới (nói chứ nghĩ cũng lắm lúc nản).
           </p>
           <p>
-            Đó là lý do <strong>Đại Hải Trình Marketing x AI</strong> được sinh ra! Tôi KHÔNG PHẢI LÀ CHUYÊN GIA, và đây không phải là một khóa học, mà là một tấm "Bản Đồ Kho Báu" tinh gọn nhất. Tôi đã cố gắng loại bỏ mớ lý thuyết phức tạp, để gửi tặng tận tay anh em <strong>Tư duy ứng dụng AI vào Marketing Thực Chiến (AI-First Mindset)</strong> dựa trên kinh nghiệm cá nhân kết hợp cùng AI. À vì thế chắc chắn sẽ còn nhiều thiếu sót, có gì anh em góp ý nhẹ tay nhé.
+            Đó là lý do <strong>MARKIGAI - Đại Hải Trình Marketing x AI</strong> được sinh ra! Tôi KHÔNG PHẢI LÀ CHUYÊN GIA, và đây không phải là một khóa học, mà là một tấm "Bản Đồ Kho Báu" tinh gọn nhất. Tôi đã cố gắng loại bỏ mớ lý thuyết phức tạp, để gửi tặng anh em <strong>Tư duy ứng dụng AI vào Marketing Thực Chiến (AI-First Mindset)</strong> dựa trên kinh nghiệm cá nhân kết hợp cùng AI. À vì thế chắc chắn sẽ còn nhiều thiếu sót, có gì anh em góp ý nhẹ tay nhé.
           </p>
           <p className="font-black text-amber-500 pt-4 border-t border-slate-800 mt-6 italic">
             "Biển cả luôn sóng gió, công cụ AI có thể thay đổi sau 1 đêm, nhưng Haki Tư Duy của một Thuyền Trưởng thực thụ thì trường tồn với thời gian."
@@ -105,13 +105,13 @@ export default function AboutPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
         <div className="bg-blue-900/10 rounded-3xl p-8 border border-blue-900/30">
           <Sailboat className="w-10 h-10 text-blue-500 mb-4" />
-          <h3 className="text-xl font-bold text-slate-200 mb-2">Mục tiêu dự án</h3>
+          <h3 className="text-xl font-bold text-slate-200 mb-2">Mục tiêu dự án MARKIGAI</h3>
           <p className="text-slate-400">Giúp +10.000 Marketer tiếp cận kiến thức Marketing bài bản hơn, quy trình ứng dụng AI hiệu quả hơn, rút ngắn thời gian chạy Task tay chân để tập trung cho chiến lược xuất chúng, hoặc đơn giản là... có thời gian nghỉ ngơi cafe hoặc đi chơi với người thương.</p>
         </div>
         <div className="bg-emerald-900/10 rounded-3xl p-8 border border-emerald-900/30">
           <ScrollText className="w-10 h-10 text-emerald-500 mb-4" />
           <h3 className="text-xl font-bold text-slate-200 mb-2">Hành trình tiếp theo</h3>
-          <p className="text-slate-400">Dự án sẽ liên tục cập nhật để bắt kịp những công nghệ, xu hướng mới nhất.</p>
+          <p className="text-slate-400">Dự án MARKIGAI sẽ liên tục cập nhật để bắt kịp những công nghệ, xu hướng mới nhất.</p>
         </div>
       </div>
 

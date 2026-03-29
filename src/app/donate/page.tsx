@@ -12,7 +12,7 @@ export default function DonatePage() {
         <Coffee className="w-16 h-16 mx-auto text-amber-500 mb-6" />
         <h1 className="text-4xl font-extrabold text-slate-100 mb-4">Trạm Tiếp Lương Thực</h1>
         <p className="text-xl text-slate-400">
-          Đây là 1 dự án hoàn toàn <strong className="text-amber-500">MIỄN PHÍ</strong>. Nhưng để hành trình này đi xa, rất vui nếu nhận được sự ủng hộ của anh em lan toả dự án đến những người cần nó!
+          <strong className="text-amber-500">MARKIGAI</strong> là 1 dự án <strong className="text-amber-500">MIỄN PHÍ</strong>. Nhưng để hành trình này đi xa, rất vui nếu nhận được sự ủng hộ của anh em lan toả dự án đến những người cần nó!
         </p>
       </div>
 
